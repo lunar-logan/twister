@@ -42,11 +42,14 @@ app.get('/callback', function(req, res) {
 				accessToken: accessToken,
 				accessSecret: accessTokenSecret
 			};
-			res.json({
-				result: results
-			});
+			res.redirect('/r?a='+accessToken+'&s='+accessTokenSecret);
 		}
 	});
+});
+
+
+app.get('/r', function(req, res) {
+	res.send('r');
 });
 
 
