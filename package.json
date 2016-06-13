@@ -1,0 +1,29 @@
+{
+  "name": "twister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunar-logan/twister.git"
+  },
+  "author": "Anurag Gautam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunar-logan/twister/issues"
+  },
+  "homepage": "https://github.com/lunar-logan/twister#readme",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "express": "^4.13.4",
+    "extend": "^3.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "node-twitter-api": "^1.7.2",
+    "request": "^2.72.0",
+    "tough-cookie": "^2.2.2",
+    "twitter-oauth": "0.0.6"
+  }
+}
